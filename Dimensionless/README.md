@@ -22,3 +22,14 @@ where `rho` is the density of the fluid (kg/m³); `mu` is the dynamic viscosity 
 * Diameter of agitators (turbine or propeller) in cylindrical vessels stirred by a central rotating paddle.
 
 For mass flow in circular tubes, the Reynolds number reduces in function of `m` mass flow rate (kg/s) and `D` inside diameter of the pipe (m).
+
+
+## 1.2 Froude number ##
+
+```MATLAB
+  Fr = froude( u, D );
+  Fr = froude( u, D, g );
+```
+where `u` is the fluid speed (m/s); `D` is the hydraulic diameter of pipes (m); ang `g` is the gravitational acceleration (by default g=9.81 m/s²).
+
+
