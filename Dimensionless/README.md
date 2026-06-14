@@ -21,7 +21,7 @@ where `rho` is the density of the fluid (kg/m³); `mu` is the dynamic viscosity 
 
 * Diameter of agitators (turbine or propeller) in cylindrical vessels stirred by a central rotating paddle.
 
-For mass flow in circular tubes, the Reynolds number reduces in function of `m` mass flow rate (kg/s) and `D` inside diameter of the pipe (m).
+For circular pipes, the Reynolds number can be calculate in function of `m` mass flow rate (kg/s) and `D` inside diameter of the pipe (m).
 
 
 ## 1.2 Froude number ##
