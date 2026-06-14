@@ -30,6 +30,6 @@ For mass flow in circular tubes, the Reynolds number reduces in function of `m` 
   Fr = froude( u, D );
   Fr = froude( u, D, g );
 ```
-where `u` is the fluid speed (m/s); `D` is the hydraulic diameter of pipes (m); ang `g` is the gravitational acceleration (by default g=9.81 m/s²).
+where `u` is the fluid speed (m/s); `D` is the hydraulic diameter of pipes (m); ang `g` is the gravitational acceleration (m/s²). By default `g=9.81 m/s²` .
 
 
