@@ -33,3 +33,13 @@ For circular pipes, the Reynolds number can be calculate in function of `m` mass
 where `u` is the fluid speed (m/s); `D` is the hydraulic diameter of pipes (m); ang `g` is the gravitational acceleration (m/s²). By default `g=9.81 m/s²` .
 
 
+## 1.3 Euler number ##
+
+```MATLAB
+  Eu = euler( rho, u, dP )
+  Eu = euler( rho, u, Pin, Pout )
+  Eu = euler( rho, u, Pout, Pin )
+```
+where `rho` is the density of the fluid (kg/m³); `u` is the fluid speed (m/s); and `dP` is the fluid pressure drop (Pa) between input `Pin` and output `Pout` of pipe.
+
+
