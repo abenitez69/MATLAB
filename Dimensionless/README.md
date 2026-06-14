@@ -17,6 +17,8 @@ where `rho` is the density of the fluid (kg/m³); `mu` is the dynamic viscosity 
 
 * The distance between the plates for a fluid moving between two plane parallel surfaces (where the width is much greater than the space between the plates).
 
-* Diameter of spherical particles in a fluid or equivalent diameter of non-spherical particles: D_{eq}=1.241\,\sqrt[3]{V_{p}}=1.241\,\sqrt[3]{\frac{m_{p}}{\rho_{p}}}
+* Diameter of spherical particles in a fluid or equivalent diameter `Deq` of non-spherical particles.
 
 * Diameter of agitators (turbine or propeller) in cylindrical vessels stirred by a central rotating paddle.
+
+For mass flow in circular tubes, the Reynolds number reduces in function of `m` mass flow rate (kg/s) and `D` inside diameter of the pipe (m).
